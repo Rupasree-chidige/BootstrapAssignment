@@ -1,0 +1,209 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    font-family: 'EB Garamond';
+    color: #383030;
+    font-size: 20px;
+  }
+  
+  .navbar{
+      padding: 13px 15px;
+      opacity: 1;
+      
+  }
+  .navbar:hover{
+      opacity: 0.9;
+  }
+  .fa{
+      margin-right: 2px;
+  }
+  
+  .nav-brand{
+      margin-right: 20px;
+      padding: 3px;
+     
+  }
+ 
+  .nav-brand a{
+      font-size: 30px;
+  }
+  #menuWrapper{
+      
+      margin: 10px;
+     
+  }
+  #Menu .nav-link
+  {
+      color:grey!important;
+  }
+
+ 
+  #Menu{
+      background-color: black;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+       opacity: 0.8;
+      margin: 30px 10px 10px 10px;
+  }
+ 
+ 
+  .jumbotron{
+    background-color: #212529;
+    opacity: 0.8;
+    color: white;
+    margin: 10px;
+  }
+  .jumbotron:hover{
+      opacity: 0.9;
+  }
+  .tab-content{
+      background-color: white;
+  }
+  #menuWrapper>.container{
+      margin-top: 20px;
+  }
+  #menuWrapper .container h1{
+      
+    margin-top: 50px;
+    color: black;
+    opacity: 0.8;
+    margin-bottom: 50px;
+} 
+.card-img-top{
+    height: 250px;
+    
+}
+#offerwrapper .container h1{
+      
+    margin-top: 50px;
+    color: black;
+    opacity: 0.8;
+    margin-bottom: 50px;
+} 
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    .context-dark, .bg-gray-dark, .bg-primary {
+        color: rgba(243, 235, 235, 0.8);
+    }
+    
+    .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+        color: #ffffff;
+    }
+    .nav-list li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .nav-list li a:hover:before {
+        margin-left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .footer-classic{
+        margin-bottom: 0px;
+        padding: 20px;
+       
+    }
+    .offerwrapper .row{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    ul, ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .social-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 23px;
+        font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .social-container .col {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .nav-list li a:before {
+        content: "\f14f";
+        font: 400 21px/1 "Material Design Icons";
+        color: #4d6de6;
+        display: inline-block;
+        vertical-align: baseline;
+        margin-left: -28px;
+        margin-right: 7px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .22s ease;
+    }
+#offerwrapper>.container-fluid{
+    
+    background-color:white;
+    margin: 10px;
+}
+
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  
+/* Carousel base class */
+.carousel {
+    margin-bottom: 2rem;
+    margin-top:21px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+  
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+      
+
+    .carousel-caption p {
+        color: white!important;
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+     
+    }
+}
+  
+
+     
+
+  
+
